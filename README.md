@@ -12,6 +12,7 @@ Features 🛠️ :
 
 This small project is a demonstration of the power of JavaScript to create functional and responsive web applications.
 
+🔗 [Live Demo](https://HoucemZaier.github.io/To-Do-List-with-JavaScript/)
 
 ![Capture d'écran 2025-04-28 173901](https://github.com/user-attachments/assets/57679961-1df3-43f4-a219-b7711ea819fb)
 ![Capture d'écran 2025-04-17 213327](https://github.com/user-attachments/assets/17635b5a-64d1-4fb9-a169-eac3399f7a64)

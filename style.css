@@ -113,14 +113,14 @@
     font-family: 'poppins', sans-serif;
 }
 
-body{
+body {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to top , #cfd9df,#e2ebf0);
+    background: linear-gradient(to top, #cfd9df, #e2ebf0);
     padding: 10px;
 }
 
-.todo-app{
+.todo-app {
     width: 100%;
     max-width: 540px;
     background: #fff;
@@ -130,22 +130,22 @@ body{
     box-shadow: 0 0 30px #afafaf;
 }
 
-h2{
+h2 {
     color: #002765;
     display: flex;
     align-items: center;
     font-size: 30px;
     margin-bottom: 50px;
-    position: relative
+    position: relative;
 }
 
-h2 img{
+h2 img {
     width: 40px;
     position: absolute;
     right: 0;
 }
 
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -157,7 +157,7 @@ h2 img{
     box-shadow: 0 0 10px #5d5d5d;
 }
 
-input{
+input {
     flex: 1;
     border: none;
     outline: none;
@@ -168,11 +168,11 @@ input{
     padding: 10px;
 }
 
-input::placeholder{
+input::placeholder {
     color: #1e008d;
 }
 
-button{
+button {
     border: none;
     outline: none;
     padding: 16px 30px;
@@ -185,7 +185,7 @@ button{
     margin: 1px;
 }
 
-ul li{
+ul li {
     list-style: none;
     font-size: 18px;
     font-weight: 500;
@@ -197,7 +197,7 @@ ul li{
     margin-block: 10px;
 }
 
-ul li::before{
+ul li::before {
     content: '';
     position: absolute;
     height: 30px;
@@ -210,13 +210,13 @@ ul li::before{
     left: 8px;
 }
 
-ul li.checked{
+ul li.checked {
     background: #3700a4;
     color: #fff;
     border-radius: 50px;
 }
 
-ul li.checked::before{
+ul li.checked::before {
     background: url(images/checked.png);
     background-size: cover;
 }
@@ -235,12 +235,12 @@ ul li span {
     border-radius: 50%;
 }
 
-ul li span:hover{
+ul li span:hover {
     background: #000;
     color: #fff;
 }
 
-ul li.checked span:hover{
+ul li.checked span:hover {
     background: #fff;
     color: #000;
 }
@@ -257,4 +257,95 @@ ul li img.edit-icon {
 
 ul li img.edit-icon:hover {
     background: #d3d3d3;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .todo-app {
+        max-width: 100%;
+        padding: 20px 15px 40px;
+        margin: 100px auto 10px;
+        border-radius: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    h2 img {
+        width: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 8px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px 20px;
+        width: 100%;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding: 10px 8px 10px 40px;
+    }
+
+    ul li::before {
+        height: 25px;
+        width: 25px;
+        top: 10px;
+        left: 5px;
+    }
+
+    ul li span {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 18px;
+        top: 8px;
+    }
+
+    ul li img.edit-icon {
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        right: 35px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .todo-app {
+        padding: 15px 10px 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h2 img {
+        width: 25px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
 }

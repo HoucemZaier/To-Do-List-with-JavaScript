@@ -1,22 +1,20 @@
-J'ai créé récemment une application To-Do List interactive à l'aide d'HTML, CSS, et JavaScript. Ce projet m'a aidé à approfondir mon expérience de manipulation du DOM et stockage local des données avec localStorage pour la persistance des données.
+I recently created an interactive To-Do List application using HTML, CSS, and JavaScript. This project helped me deepen my experience in DOM manipulation and local data storage with localStorage for data persistence.
 
-Caractéristiques :
+Features 🛠️ :
 
-✅ Ajouter, modifier et supprimer des tâches
+✅ Add, edit, and delete tasks
 
-✅ Marquer les tâches comme complétées
+✅ Mark tasks as completed
 
-✅ Sauvegarde automatique dans le navigateur
+✅ Automatic saving in the browser
 
-✅ Interface utilisateur intuitive et simple
+✅ Intuitive and simple user interface
 
-Ce petit projet est une démonstration de la puissance de JavaScript pour créer des applications web fonctionnelles et réactives.
+This small project is a demonstration of the power of JavaScript to create functional and responsive web applications.
 
+Try the project : 🔗 [Live Demo]( https://houcemzaier.github.io/To-Do-List-with-JavaScript/)
 
-
-
-![Capture d'écran 2025-04-17 213313](https://github.com/user-attachments/assets/5cf4b330-1ea9-4db0-928d-cff91113d9d2)
-![Capture d'écran 2025-04-17 212306](https://github.com/user-attachments/assets/54c6f430-23a0-47c6-857e-950f03ab779e)
-![Capture d'écran 2025-04-17 212229](https://github.com/user-attachments/assets/cc5c6df2-da7d-49b3-9663-310618dd3046)
 ![Capture d'écran 2025-04-28 173901](https://github.com/user-attachments/assets/57679961-1df3-43f4-a219-b7711ea819fb)
 ![Capture d'écran 2025-04-17 213327](https://github.com/user-attachments/assets/17635b5a-64d1-4fb9-a169-eac3399f7a64)
+![Capture d'écran 2025-05-08 164959](https://github.com/user-attachments/assets/cb781c17-5d8f-4830-939e-60ac1cf385ae)
+![Capture d'écran 2025-05-08 164945](https://github.com/user-attachments/assets/bba3ed0d-437c-4df0-854b-7701970247d0)

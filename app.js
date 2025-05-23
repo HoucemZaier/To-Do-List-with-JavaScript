@@ -7,7 +7,7 @@ let inputBox = document.getElementById('input-box')
 function addTask()
 {
     if(inputBox.value === ""){
-        alert("You should add a Task!!")
+        alert("You should add a Task !")
     }
     else
     {

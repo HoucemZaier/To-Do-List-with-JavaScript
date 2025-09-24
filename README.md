@@ -1,4 +1,4 @@
-I recently created an interactive To-Do List application using HTML, CSS, and JavaScript. This project helped me deepen my experience in DOM manipulation and local data storage with localStorage for data persistence.
+I have recently created an interactive To-Do List application using HTML, CSS, and JavaScript. This project helped me deepen my experience in DOM manipulation and local data storage with localStorage for data persistence.
 
 Features 🛠️ :
 
